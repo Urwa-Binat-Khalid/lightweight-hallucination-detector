@@ -64,9 +64,7 @@ lightweight-hallucination-detector/
 ├── models.py
 ├── utils.py
 ├── config.py
-├── notebooks/
-├── results/
-└── saved_models/
+└── results/
 ```
 
 # Installation
