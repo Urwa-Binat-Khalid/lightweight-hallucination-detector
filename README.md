@@ -28,17 +28,19 @@ HaluEval Benchmark Dataset
 
 ---
 
+Results
+
 # Results
 
-| Model | F1 Score |
-|---|---|
-| BERT Fine-tuned | 97.53% |
-| RoBERTa Fine-tuned | 97.53% |
-| Frozen RoBERTa + Linear | 67.38% |
-| Frozen RoBERTa + BiLSTM | 96.80% |
-| Frozen RoBERTa + BiGRU (Proposed) | 97.07% |
+| Model | Accuracy | Precision | Recall | F1 Score |
+|---|---|---|---|---|
+| BERT Fine-tuned | 97.52% | 97.54% | 97.52% | 97.53% |
+| RoBERTa Fine-tuned | 97.53% | 97.55% | 97.53% | 97.53% |
+| Frozen RoBERTa + Linear | 67.40% | 67.55% | 67.40% | 67.38% |
+| Frozen RoBERTa + BiLSTM | 96.81% | 96.82% | 96.81% | 96.80% |
+| Frozen RoBERTa + BiGRU (Proposed) | 97.08% | 97.09% | 97.08% | 97.07% |
 
-The proposed architecture achieves near fine-tuned performance while updating less than 1% of total model parameters.
+The proposed Frozen RoBERTa + BiGRU architecture achieves near fine-tuned performance while updating less than 1% of total model parameters.
 
 ---
 
