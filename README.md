@@ -92,4 +92,4 @@ python train.py
 
 # Author
 
-Urwa Shanza
+Urwa
